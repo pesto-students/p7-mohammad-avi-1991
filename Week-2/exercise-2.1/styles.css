@@ -54,4 +54,5 @@ body {
 
 .data .form {
     display: flex;
+    justify-content: center;
 }
