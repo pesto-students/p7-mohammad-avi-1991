@@ -1,0 +1,83 @@
+.content {
+    margin-top: 200px;
+}
+
+.hi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide-item {
+    display: none;
+  }
+
+.group-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.group-1 .square-1 {
+    position: relative;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    animation-name: spin, slide1;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
+
+.group-1 .square-2 {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    animation-name: spin, slide2;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
+
+.group-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.group-2 .square-3 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    animation-name: spin, slide1;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
+
+.group-2 .square-4 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    animation-name: spin, slide2;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(90deg);
+    }
+}
+
+@keyframes slide3 {
+    to {
+      transform: translateX(-200px);
+    }
+}
+
+@keyframes slide4 {
+    to {
+      transform: translateX(200px);
+    }
+}
