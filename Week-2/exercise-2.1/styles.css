@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+.main-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.main-head .heading {
+    line-height: 1em;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.content .description {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content .description p {
+    flex: 0 0 25%;
+}
+
+.content .image-desc {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 0 0 25%;
+}
+
+.content .image-desc .image-story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex: 0 0 25%;
+}
+
+.data {
+    margin-top: 50px;
+}
+
+.data .form {
+    display: flex;
+    justify-content: center;
+}
