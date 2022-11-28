@@ -1,0 +1,73 @@
+.content {
+    margin-top: 200px;
+}
+
+.content:hover .group-1 .square-1 {
+    transform: rotate(90deg);
+    transform-origin: left;
+}
+
+.content:hover .group-1 .square-2 {
+    transform: rotate(-90deg);
+    transform-origin: right;
+}
+
+.content:hover .group-2 .square-3 {
+    transform: rotate(90deg);
+    transform-origin: left;
+}
+
+.content:hover .group-2 .square-4 {
+    transform: rotate(-90deg);
+    transform-origin: right;
+}
+
+.hi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide-item {
+    display: none;
+  }
+
+.group-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.group-1 .square-1 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s;
+}
+
+.group-1 .square-2 {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s;
+}
+
+.group-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.group-2 .square-3 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s;
+}
+
+.group-2 .square-4 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s;
+}
