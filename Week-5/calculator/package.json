@@ -1,0 +1,13 @@
+{
+    "name": "5.4",
+    "version": "1.0.0",
+    "main": "calculator.js",
+    "license": "MIT",
+    "scripts": {
+      "test":"jest"
+    },
+    "dependencies": {
+      "jest": "^29.3.1"
+    }
+  }
+  
